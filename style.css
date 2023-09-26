@@ -1,0 +1,664 @@
+@font-face {
+    font-family: 'Latisca';
+    src: url('./Font/FontsFree-Net-Lastica.ttf');
+  }
+
+@font-face {
+    font-family: 'Blanka';
+    src: url('./Font/Blanka-Regular.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-one{
+    height: 100vh;
+    position: relative;
+}
+
+.iamge1{
+    height: 100vh;
+    position: absolute;
+    left: 6%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    min-width: 100vw;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.2rem;
+}
+
+.logo-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-grow: 4;
+}
+
+.logo{
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.logo-container>h1{
+    color: white;
+}
+
+.nav-option-container{
+    color: white;
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-continer{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 5rem;
+    color: white;
+    list-style: none;
+}
+
+.banner-number{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12rem;
+    line-height: 110%;
+    z-index: 1;
+    
+}
+
+.Prajyukttam{
+    font-family: 'Latisca';
+    font-size: 5rem;
+}
+
+.robot{
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    z-index: -1;
+}
+
+#section-two{
+    max-height: 100vh;
+}
+
+.image2{
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.about{
+    color: white;
+    font-family: 'Latisca';
+    font-size: 1.4rem;
+    padding: 40px 60px;
+    letter-spacing: 20px;
+}
+
+.about-one{
+    color: white;
+    width: 50%;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    margin-left: 700px;
+    font-family: 'Anonymous Pro', monospace;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-two{
+    color: white;
+    width: 50%;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    margin: 80px 0 0 50px;
+    font-family: 'Anonymous Pro', monospace;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.robot-inverted{
+    height: 400px;
+    position: absolute;
+    top: 100vh;
+    bottom: 0;
+    right: 30px;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.particles{
+    position: absolute;
+    top: 120vh;
+    left: -300px;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+.particles-one{
+    position: absolute;
+    top: 120vh;
+    left: 500px;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+.date-banner-continer{
+    position: absolute;
+    top: 150vh;
+    right: 30px;
+    color: white;
+    list-style: none;
+    opacity: 0.5;
+}
+
+.date-banner-number{
+    font-family: 'Blanka';
+    font-size: 6.6rem;
+    z-index: 1;
+    
+}
+
+.vl {
+    border-left: 6px solid white;
+    margin-left: 40%;
+    margin-top: 50%;
+    height: 100px;
+}
+
+.section-three{
+    margin-top: 240px;
+    font-family: 'Latisca';
+    position: relative;
+}
+
+.particles-three{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+.particles-four{
+    position: absolute;
+    top: 0;
+    left: 500px;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+.particles-five{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+.particles-six{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    z-index: -2;
+    filter: brightness(50%);
+}
+
+.donut{
+    z-index: -2;
+    opacity: 0.6;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 40px;
+}
+
+.cube{
+    z-index: -2;
+    opacity: 0.6;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+
+.section-three-bg-phone{
+    display: none;
+}
+
+.events-heading{
+    color: white;
+    padding-left: 60px;
+    letter-spacing: 20px;
+    text-shadow: 2px 3px 5px black;
+}
+
+.cards-wrapper{
+    padding: 60px 60px;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    background-image: linear-gradient(to right top, rgba(59, 59, 59, 0.9), rgba(227, 227, 227, 0.4));
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-container>h4{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card-container>img{
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.card-container>p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Anonymous Pro', monospace;
+    line-height: 20px;
+    text-align: center;
+}
+
+.button-wrapper{
+    margin-top: 10px;
+    width: 250px;
+    height: 55px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(93,247,175), rgb(0,144,255));
+    padding: 3px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.button-wrapper>button{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.button-wrapper:hover{
+    box-shadow: -2px 3px 5px rgb(56, 150, 106);
+    transition: 1, ease-in-out;
+}
+
+footer{
+    height: 20vh;
+    border-top: 1px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
+footer>h3{
+    padding-left: 30px;
+}
+
+footer>table{
+    padding-left: 30px;
+}
+
+footer>table>tr>td{
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.contact-container{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.contact{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+footer>p{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+}
+
+#hidden-text{
+    display: none;
+    margin-left: 30px;
+}
+
+#profile-card-section-sauvik, #profile-card-section-shubham{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 0;
+    display: none;
+    place-items: center;
+
+}
+
+.profile-card-container{
+    height: 400px;
+    width: 320px;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+.profile-card-box{
+    background-image: linear-gradient(to right bottom, rgb(0,144,255),  rgb(93,247,175)) ;
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+}
+
+
+.profile-card-container>.profile-card-box>img{
+    height: 100px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 36%;
+    top: 60%;
+}
+
+.profile-card-container>.profile-card-box>i{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.profile-card-name{
+    position: absolute;
+    top: 50%;
+    width: 320px;
+    text-align: center;
+    text-justify: inter-cluster;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.profile-card-social-media{
+    position: absolute;
+    top: 60%;
+    width: 320px;
+    display: grid;
+    place-items: center;
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+td{
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    .section-one{
+        height: 100vh;
+        position: relative;
+    }
+    
+    .iamge1{
+        height: 100vh;
+        position: absolute;
+        left: 6%;
+    }
+
+    .logo-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        height: 70px;
+    }
+
+    .logo-container>h1{
+        font-size: 0.6rem;
+        color: white;
+    }
+
+    .nav-option-container{
+        display: none;
+    }
+
+    .robot,.robot-inverted{
+        display: none;
+    }
+
+    .banner-continer{
+        top: 70px;
+        left: 20%;
+    }
+
+    .banner-number{
+        font-size: 6rem;
+    }
+    
+    .Prajyukttam{
+        font-size: 1.4rem;
+  }
+
+  .iamge1,.image2{
+    max-width: 100vw;
+  }
+
+  .date-banner-continer{
+    top: 120vh;
+    right: 0;
+  }
+
+  .date-banner-number{
+    font-size: 3rem;
+    opacity: 0.5;
+  }
+  
+  .about-one{
+    margin-top: 0;
+    margin-left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .about-two{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
+    width: 80%;
+    margin-top: 8px;
+    margin-left: 5%;
+  }
+
+
+.events-heading{
+    text-align: center;
+    width: 100vw;
+}
+
+.card-row{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-box{
+    margin: 10px 0 ;
+}
+
+.card-container>h4{
+    font-size: 1.1rem;
+}
+
+.card-container>p{
+    font-size: 12px;
+}
+
+.section-three-bg{
+    max-width: 300px;
+}
+
+  .particles-three{
+    top: 0;
+  }
+
+  .particles-four{
+    left: 0;
+    top: 50vh;
+  }
+
+  .particles-five{
+    top: 100vh;
+  }
+
+  .particles-six{
+    left: 0;
+    top: 150vh;
+  }
+
+  .donut{
+    top: 100vw;
+    left: 0;
+  }
+  .cube{
+    left: 0;
+  }
+
+footer>h3{
+    font-size: 1rem;
+}
+
+.contact-container{
+    flex-direction: column;
+}
+
+footer>p{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+#profile-card-section-sauvik, #profile-card-section-shubham{
+    bottom: 0;
+}
+
+.particles{
+    display: none;
+}
+
+.particles-one{
+   display: none;
+}
+
+.section-three-bg-phone{
+    display: block;
+    position: absolute;
+    max-width: 300px;
+    z-index: -2;
+    rotate: 90deg;
+}
+
+.particles-seven{
+    top: 200vh;
+  }
+
+  .particles-eight{
+    left: 0;
+    top: 250vh;
+  }
+
+  .particles-nine{
+    top: 300vh;
+  }
+
+  .particles-ten{
+    left: 0;
+    top: 350vh;
+  }
+
+  .donut-two{
+    top: 150vh;
+  }
+
+  .cube-two{
+    top: 300vh;
+    left: 0;
+  }
+
+
+
+}
+
+
+
+

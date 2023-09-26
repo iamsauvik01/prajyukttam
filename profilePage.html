@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <style>
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+      body {
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          overflow-x: hidden;
+          background-image: url('./Images/p1.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          /* padding: 10px 20px; */
+
+      }
+
+
+      a{
+        text-decoration: none;
+        color: inherit;
+      }
+
+
+      .profile-card-container {
+        height: 400px;
+        width: 350px;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 2px 2px 5px black;
+        position: relative;
+        margin: 20px 0;
+      }
+
+      .profile-card-box {
+        background-image: linear-gradient(
+          to right bottom,
+          rgb(0, 144, 255),
+          rgb(93, 247, 175)
+        );
+        height: 35%;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        position: relative;
+      }
+
+      #profile-card-section-sauvik{
+        margin-top: 10px;
+      }
+
+      .profile-card-container > .profile-card-box > img {
+        height: 100px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        left: 36%;
+        top: 60%;
+      }
+
+      .profile-card-name {
+        position: absolute;
+        top: 48%;
+        width: 320px;
+        text-align: center;
+        text-justify: inter-cluster;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+      }
+
+      .profile-card-social-media {
+        position: absolute;
+        top: 65%;
+        width: 320px;
+        display: grid;
+        place-items: center;
+        line-height: 25px;
+        font-size: 1rem;
+      }
+
+      td {
+        padding: 5px 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+
+    <script src="../script.js"></script>
+  </head>
+  <body>
+
+    <section id="profile-card-section-sauvik">
+      <div class="profile-card-container">
+        <div class="profile-card-box">
+          <img src="./Images/Sauvik.png" alt="" />
+        </div>
+
+        <div class="profile-card-name">
+          <h2>Sauvik Das</h2>
+          <h4 style="opacity: 0.7">Full-Stack Developer</h4>
+        </div>
+
+        <table class="profile-card-social-media">
+          <tr>
+            <td><i class="fa-solid fa-envelope fa-xl"></i></td>
+            <td>Sauvikdas64@gmail.com</td>
+          </tr>
+
+          <tr>
+            <td><i class="fa-brands fa-instagram fa-xl"></i></td>
+            <td>
+              <a href="https://www.instagram.com/sauvik____/">sauvik____</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td><i class="fa-brands fa-github fa-xl"></i></td>
+            <td><a href="https://github.com/iamsauvik01">iamsauvik01</a></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="profile-card-section-shubham">
+      <div class="profile-card-container">
+        <div class="profile-card-box">
+          <img src="./Images/Shubham.png" alt="" />
+        </div>
+
+        <div class="profile-card-name">
+          <h2>Shubham Tarafdar</h2>
+          <h4 style="opacity: 0.7">Ui/Ux Designer</h4>
+        </div>
+
+        <table class="profile-card-social-media">
+          <tr>
+            <td><i class="fa-solid fa-envelope fa-xl"></i></td>
+            <td>starafder20043@gmail.com</td>
+          </tr>
+
+          <tr>
+            <td><i class="fa-brands fa-instagram fa-xl"></i></td>
+            <td>
+              <a href="https://instagram.com/_constelation_001_/"
+                >_constelation_001_</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td><i class="fa-brands fa-github fa-xl"></i></td>
+            <td><a href="https://github.com/shubham2243">shubham2243</a></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
